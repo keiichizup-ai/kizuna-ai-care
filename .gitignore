@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+functions/node_modules/
+
+# Build output
+frontend/dist/
+
+# Local Firebase files
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Secrets and local environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+functions/.env
+functions/.env.local
+functions/.secret.local
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Project-specific Firebase configuration
+.firebaserc
+
+# Frontend environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Functions environment variables and local secrets
+functions/.env
+functions/.env.*
+functions/.secret.local
